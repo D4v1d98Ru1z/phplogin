@@ -7,7 +7,7 @@ $confirm = $_POST['confirmPassword'];
 
 $cryptPss = password_hash($password, PASSWORD_DEFAULT);
 
-$compareEmail = 'SELECT * FROM user WHERE email = ?';
+$compareEmail = 'SELECT * FROM *table* WHERE *column* = ?';
 $sentence = $pdo->prepare($compareEmail);
 $sentence->execute(array($email));
 $end = $sentence->fetch();
@@ -18,7 +18,7 @@ if($end){ //if end is true
 }
 
 if(password_verify($confirm, $cryptPss)){
-    $add_query = 'INSERT INTO user (email, password) VALUES (?,?)';
+    $add_query = 'INSERT INTO *table* (*column*, *pasword from db*) VALUES (?,?)';
     $addPDO = $pdo->prepare($add_query);
     $addPDO->execute(array($email, $cryptPss));
 

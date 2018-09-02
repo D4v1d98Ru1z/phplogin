@@ -5,7 +5,8 @@ include_once 'connection.php';
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$compareEmail = 'SELECT * FROM user WHERE email = ?';
+//email is the column from the data base
+$compareEmail = 'SELECT * FROM **table from DB** WHERE email = ?';
 $sentence = $pdo->prepare($compareEmail);
 $sentence->execute(array($email));
 $end = $sentence->fetch();
