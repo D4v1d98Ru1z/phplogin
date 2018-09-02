@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body .img-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/ash-edmonds-510566-unsplash.jpg");
+  background-size: cover;
+}
+
+body .img-bg nav button a {
+  text-decoration: none;
+}
+
+body .img-bg nav button a:hover {
+  color: white;
+}
+
+body .img-bg-log {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/diana-macesanu-488916-unsplash.jpg");
+  background-size: cover;
+}
+
+body .img-bg-sig {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/anas-alshanti-169265-unsplash.jpg");
+  background-size: cover;
+}
+
+body .img-bg-cont {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/andrew-neel-609842-unsplash.jpg");
+  background-size: cover;
+}
+
+body .img-bg-cont nav button a {
+  text-decoration: none;
+}
+
+body .img-bg-cont nav button a:hover {
+  color: white;
+}
+/*# sourceMappingURL=bg.css.map */
