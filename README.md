@@ -29,7 +29,6 @@ backend/signup.php
 ```
 - Run the project on a server like **Xampp**, **Laragon** or in your prefer server
 - For starter page Navigate to [http://localhost/](http://localhost/)
-- For admin page Navigate to [http://localhost:4200/admin](http://localhost:4200/admin)
 
 
 License
